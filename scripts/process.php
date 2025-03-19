@@ -21,8 +21,8 @@ function resizeImage($sourcePath, $targetPath, $maxWidth = 4000, $maxHeight = 40
 }
 
 function analyzeImage($imagePath) {
-    $subscriptionKey = "6rpsJj314Z9tGHQmX7AuI2W6hsloJ68hvCyG82IUgDWLT0lmsDT4JQQJ99BCAC5RqLJXJ3w3AAAFACOGNsv4";
-    $endpoint = "https://invoiceprocessingusingocr.cognitiveservices.azure.com/";
+    $subscriptionKey = "YOUR_API_KEY";
+    $endpoint = "YOUR_ENDPOINT";
 
     $url = $endpoint . "/vision/v3.2/ocr?language=pl&detectOrientation=true";
 
