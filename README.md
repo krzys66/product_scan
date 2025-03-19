@@ -8,4 +8,4 @@ TO RUN THE SITE:
 
 ** You need your API key & Endpoint from Microsoft Azure AI to run the site
 
-If it's not working, maybe you must go to `php.ini` file and uncomment line: `extension:db`
+If it's not working, maybe you have to go to `php.ini` file and uncomment line: `extension=gd`
